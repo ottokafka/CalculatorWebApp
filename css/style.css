@@ -33,6 +33,12 @@ padding: 15px 15px 15px 15px;
 span:hover{
     background-color: mediumpurple;
 }
+span:active{
+    background-color: white;
+    box-shadow: 0px 0px white;
+    top: 4px;
+}
+
 
 #clear {
     background: red;
@@ -41,9 +47,13 @@ span:hover{
 
 }
 #clear:hover{
-    background-color: floralwhite;
+    background-color: palevioletred;
     color: red;
 
+}
+#clear:active{
+    box-shadow: 0px 0px blue;
+    background-color: darkred;
 }
 
 #equal {
@@ -52,6 +62,10 @@ span:hover{
 }
 #equal:hover {
     background-color: green;
+}
+#equal:active{
+    background-color: darkgreen;
+    box-shadow: 0px 0px;
 }
 
 .top {
