@@ -2,7 +2,7 @@
 
 #calculator{
     width: 290px;
-    height: 350px;
+    height: 420px;
     margin: 200px auto;
     padding: 5px 5px 5px 5px;
 
@@ -59,6 +59,7 @@ span:active{
 #equal {
     background: blue;
     color: white;
+    width: 270px;
 }
 #equal:hover {
     background-color: green;
